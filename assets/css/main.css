@@ -1,10 +1,75 @@
-*{
+  *{
   background-color: #c5d5c5;
   font-family: sans-serif;
 
 
 }
 
+li, a, button{
+  font-family: sans-serif;
+  font-weight: 50;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  height: 100%;
+background-color: #88948d;
+
+
+}
+.head {
+  background-color: #88948d;
+}
+.logo{
+  cursor: pointer;
+  width: 5vh;
+  height: 3vh;
+background-color: #88948d;
+}
+
+.nav_links{
+background-color: #88948d;
+  list-style: none;
+}
+
+.nav_links li{
+  background-color: #88948d;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+  background-color: #88948d;
+}
+
+.nav_links li a:hover{
+  color: #c5d5c5;
+}
+
+.cta{
+  background-color: #88948d;
+}
+.login{
+
+  padding: 9px 25px;
+  background-color: rgba(159, 169, 163, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.login:hover{
+        background-color: rgba(159, 169, 163, 0.6);;
+}
 
 .container{
   left: 20%;
@@ -41,7 +106,7 @@
   left: 50%;
   top: 20%;
   width: 40vh;
-  height: 45vh;
+  height: 48vh;
   background: #9fa9a3;
   box-shadow: 10px 10px 5px
   rgba(10, 0, 0, 10%);
@@ -62,11 +127,11 @@
 }
 
 .register h1{
-  width: 20px;
+  width: 200px;
   background-color: #9fa9a3;
   position: relative;
 top: 0%;
-left: 28%;
+left: 32%;
 
 }
 
@@ -90,10 +155,15 @@ border: 1px solid white;
 }
 
 .register input{
+  margin-top: 2px;
   position: relative;
-border-radius: 15px;
+border-radius: 7px;
 width: 20vh;
 height: 2vh;
+padding: 3px;
+font-size: 15px;
+border: 1px solid gray;
+outline: none;
 }
 .register input placeholder{
   left: 0%;
@@ -113,6 +183,32 @@ height: 2vh;
   width: 100px;
 }
 
+.registerbtn{
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  border: 1px solid white;
+  border-radius: 8px;
+  left: 1%;
+  top: 50%;
+  position: relative;
+  width: 350%;
+  height: 3.4vh;
+}
+
+
 .register .containersignin{
   background-color: #9fa9a3;
+  left: 0%;
+  position: absolute;
+}
+
+.containersignin{
+  top: 85%;
+  background-color: #9fa9a3;
+}
+
+.containersignin .signin{
+
 }
